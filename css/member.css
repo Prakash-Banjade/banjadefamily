@@ -1,0 +1,47 @@
+.member_info{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    padding-top: 120px;
+}
+
+.member_photo{
+    /* border: 2px solid var(--primary-color); */
+    background-color: var(--primary-color);
+    border-radius: 8px;
+}
+.member_photo img{
+    height: 200px;
+    width: 200px;
+    border-radius: 8px;
+    border: 2px solid var(--primary-color);
+}
+
+table{
+    font-family: var(--primary-font-family);
+    font-weight: bold;
+    padding: 10px;
+}
+
+table td{
+    padding: 10px 0px;
+}
+
+table tr a{
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    font-family: var(--secondary-font-family);
+    color: var(--primary-color);
+    margin: 60px 0 0 10%;
+}
+
+p#information{
+    font-family: 'Noto sans';
+    padding: 20px 40px 40px 40px;
+    line-height: 30px;
+}

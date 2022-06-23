@@ -1,0 +1,168 @@
+html {
+    font-size: 15px;
+}
+
+.menus {
+    display: block;
+    padding-right: 0.125rem;
+    position: absolute;
+    top: 4.375rem;
+    background: linear-gradient(to bottom right, black, #2b2b2b);
+    width: 70vw;
+    height: 100vh;
+    margin: 0;
+    left: -110%;
+    transition: all 0.4s ease;
+}
+
+#menu_toggle {
+    display: block;
+    font-size: 1.5rem;
+}
+
+.menus i#menu_cross {
+    display: block;
+}
+
+.menus ul li {
+    display: block;
+    margin: 0;
+    padding: 1.25rem 1.5625rem;
+    width: 100%;
+}
+
+.menus ul li a i {
+    color: grey;
+    font-size: 1.2rem;
+    margin-right: 0.8125rem;
+}
+
+.menus ul li:nth-child(5) {
+    display: block;
+}
+
+.menus ul .active,
+.menus ul .active a {
+    transform: none;
+    color: white;
+    width: 100%;
+    background-color: rgb(177, 174, 174);
+}
+
+.menus ul li:hover,
+.menus ul li a:hover {
+    transform: none;
+    background-color: rgb(177, 174, 174);
+    color: white;
+    transition: 0.25s;
+}
+
+.menus ul li:hover a {
+    color: white;
+}
+
+.navbar .btn {
+    display: none;
+}
+
+.navbar i#menu_toggle {
+    display: block;
+    position: absolute;
+    left: 1.875rem;
+    color: white;
+    /* z-index: 1; */
+    cursor: pointer;
+}
+
+#menu_cross {
+    position: absolute;
+    top: 2%;
+    left: 9%;
+    cursor: pointer;
+}
+
+.about_us .about h1 {
+    margin-bottom: 0.625rem;
+    text-align: center;
+}
+
+.datas {
+    width: 100%;
+}
+
+@media screen and (max-width: 930px) {
+    .upper_footer {
+        display: block;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 656px) {
+    .about_image {
+        /* display: block; */
+        display: flex;
+        justify-content: center;
+    }
+    .about_us img {
+        width: 25rem;
+    }
+    .about_us .financial {
+        margin-top: 2rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    html {
+        font-size: 13px;
+    }
+    .explore .explore_more p {
+        font-size: 2rem;
+    }
+    .explore .shadow,
+    .explore .explore_more {
+        height: 80px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .body_sec button {
+        width: 40%;
+    }
+    .explore .explore_more p {
+        font-size: 1.5rem;
+    }
+    .explore .shadow,
+    .explore .explore_more {
+        height: 70px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    html {
+        font-size: 11px;
+    }
+    .explore .explore_more p {
+        font-size: 1.2rem;
+    }
+    .explore .shadow,
+    .explore .explore_more {
+        height: 60px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    html {
+        font-size: 10px;
+    }
+}
